@@ -191,12 +191,12 @@ public:
     }
 };
 
-int main()
-{
+// int main()
+// {
 
-    customVector<int> vector;
-    vector.pushback(1);
-    cout << vector.capacity();
+//     customVector<int> vector;
+//     vector.pushback(1);
+//     cout << vector.capacity();
 
-    return 0;
-}
+//     return 0;
+// }
