@@ -18,6 +18,9 @@ export default class Stack<T> {
     pop(): T | undefined {
         let value = this.head?.value;
         this.head = this.head?.prev;
+        if (value) {
+            this.length--;
+        }
         return value;
     }
     peek(): T | undefined {
