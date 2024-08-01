@@ -1,4 +1,4 @@
-import insertion_sort from "@code/InsertionSort";
+import insertion_sort from "day1/InsertionSort";
 
 test("insertion-sort", function () {
     const arr = [9, 3, 7, 4, 69, 420, 42];

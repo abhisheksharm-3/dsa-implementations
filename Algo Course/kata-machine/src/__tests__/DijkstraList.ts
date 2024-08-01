@@ -1,4 +1,4 @@
-import dijkstra_list from "@code/DijkstraList";
+import dijkstra_list from "../day1/DijkstraList";
 import { list1 } from "./graph";
 
 test("dijkstra via adj list", function () {
